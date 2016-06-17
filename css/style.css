@@ -65,6 +65,9 @@ a:active,
 a:hover {
   outline: 0;
 }
+.fh5co-list-check>li{
+  margin-top:15px;
+}
 
 abbr[title] {
   border-bottom: 1px dotted;
