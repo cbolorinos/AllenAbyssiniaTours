@@ -7441,7 +7441,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-main {
   clear: both;
-  padding-top: 3em;
+  padding-top: 0em;
 }
 
 #fh5co-content {
@@ -7459,6 +7459,7 @@ h1, h2, h3, h4, h5, h6 {
   background:#f7f7f7;
   color:#2c2b2b;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-intro {
     padding: 4em 0;
@@ -7774,12 +7775,15 @@ pre {
   content: '';
   width: 25px;
   height: 3px;
-  background: #000;
+  background: #f7f7f7;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+}
+.fh5co-nav-toggle i{
+  background: #f7f7f7;
 }
 
 .fh5co-nav-toggle i::before {
