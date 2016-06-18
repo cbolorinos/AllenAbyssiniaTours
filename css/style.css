@@ -6009,7 +6009,9 @@ button.list-group-item-danger.active:focus {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-
+#fh5co-footer>a{
+  background:#1c1c1c;
+}
 .panel > .list-group,
 .panel > .panel-collapse > .list-group {
   margin-bottom: 0;
